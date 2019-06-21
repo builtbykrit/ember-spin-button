@@ -5,8 +5,4 @@ module.exports = {
     // to us
     return "application";
   },
-
-  afterInstall: function(options) {
-    return this.addBowerPackageToProject('spin.js');
-  }
 };
