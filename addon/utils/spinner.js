@@ -1,4 +1,4 @@
-import {Spinner} from 'spin.js';
+import Spinner from 'spinner';
 
 export default function createSpinner(button) {
   let height = button.offsetHeight;
